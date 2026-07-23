@@ -35,17 +35,14 @@ An end-to-end, privacy-first AIOps log monitoring system that streams system log
 \[ send\_logs.py ] ---> \[ Redpanda / Kafka Topic ] ---> \[ main.py Listener ]
 
 &#x20;                                                              |
-
 &#x20;                                                    (If level == ERROR)
 
 &#x20;                                                              |
-
 &#x20;                                                              v
 
 &#x20;                                                   \[ Ollama Local LLM ]
 
 &#x20;                                                              |
-
 &#x20;                                                              v
 
 &#x20;                                                   \[ AI Root Cause Analysis ]
