@@ -62,6 +62,3 @@ python send_logs.py
 
 ---
 
-## 📸 Live Demo Output
-
-![AIOps Engine Output](demo.png)
