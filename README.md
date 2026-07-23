@@ -1,10 +1,10 @@
-# 🚀 Local AIOps Anomaly Engine & Log Analyzer
+#  Local AIOps Anomaly Engine & Log Analyzer
 
 An end-to-end, privacy-first AIOps log monitoring system that streams system logs via Redpanda/Kafka and performs real-time root cause analysis using a local Ollama (Qwen 2.5) LLM.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Streaming Event Bus: Redpanda (Kafka-compatible)
 - AI / LLM Engine: Ollama (qwen2.5:1.5b)
@@ -13,7 +13,7 @@ An end-to-end, privacy-first AIOps log monitoring system that streams system log
 
 ---
 
-## 🏛️ Architecture & Workflow
+##  Architecture & Workflow
 
 [ send_logs.py ] ---> [ Redpanda / Kafka Topic ] ---> [ main.py Listener ]
                                                                |
@@ -31,7 +31,7 @@ An end-to-end, privacy-first AIOps log monitoring system that streams system log
 
 ---
 
-## ⚡ Quickstart Guide
+##  Quickstart Guide
 
 ### 1. Start Infrastructure
 Run Docker Compose to spin up Redpanda and Ollama services:
@@ -54,7 +54,7 @@ python send_logs.py
 
 ---
 
-## 📌 Features
+##  Features
 
 - Zero Cloud Dependency: Runs completely on localhost using local open-source models.
 - Low Latency Event Streaming: Powered by Redpanda C++ Kafka API implementation.
